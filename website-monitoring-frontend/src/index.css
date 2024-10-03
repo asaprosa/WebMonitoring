@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Suse:wght@400;500;700&display=swap');
+
+body {
+  @apply font-suse;
+}
+
+@layer base {
+  ::selection {
+    background-color: black;
+    color: white;
+  }
+}
+
+/* index.css */
+
+/* Hide the default cursor */
+/* index.css */
+
+/* Remove default cursor */
+/* index.css */
+/* Global Styles */
+
+
+* {
+  cursor: none;
+}
+
+/* Floating cursor styling */
+.custom-cursor {
+  position: fixed;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.7);
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  z-index: 9999;
+  transition: transform 0.15s ease-out, opacity 0.3s ease; /* Smooth transition */
+  opacity: 0;
+}
+
+.cursor-active {
+  opacity: 1; /* Cursor fades in when moving */
+  transform: translate(-50%, -50%) scale(1.1); /* Subtle scaling effect */
+}
+
+.custom-cursor:hover {
+  background-color: rgba(255, 0, 0, 0.7); /* Change color on hover if desired */
+}
+
