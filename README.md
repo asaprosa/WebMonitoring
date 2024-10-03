@@ -4,13 +4,7 @@ A web-based application that monitors website availability and sends email alert
 Keep your websites online and optimized for performance with automated pings and real-time alerts.  
 Built with **React**, **TypeScript**, **Node.js**, and **Tailwind CSS**.
 
-## 🚀 Demo
 
-You can try out the live version here: [Website Monitoring App](#)
-
-## 📸 Screenshots
-
-![Dashboard showing real-time monitoring and alerts](#)
 
 ## ✨ Features
 
