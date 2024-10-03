@@ -1,0 +1,10 @@
+{
+    "$schema": "https://ui.shadcn.com/schema.json",
+    "components": {
+      "button": {
+        "path": "./components/ui/button.tsx",
+        "styles": "./components/ui/button.module.css"
+      }
+    }
+  }
+  
